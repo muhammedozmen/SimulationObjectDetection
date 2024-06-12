@@ -39,14 +39,11 @@ Detection of cars, people, traffic lights in game with YOLO
 - Keeps the locations and names of objects as data
 
 
-## Usage
+## Screenshots
 
-### 1
-![Click on Open Image button then choose an image that you want to upload and click on Scan QR Code or Scan Barcode button](/Screenshots/1.png?raw=true "Click on Open Image button then choose an image that you want to upload and click on Scan QR Code or Scan Barcode button")
+![1](/Screenshots/1.png?raw=true "1")
 
-### 2
-![Here is the result of Barcode scan](/Screenshots/2.png?raw=true "Here is the result of Barcode scan")
+![2](/Screenshots/2.png?raw=true "2")
 
-### 3
-![Here is the result of QR Code scan](/Screenshots/3.png?raw=true "Here is the result of QR Code scan")
+![3](/Screenshots/3.png?raw=true "3")
 
