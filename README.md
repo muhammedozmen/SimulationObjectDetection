@@ -1,5 +1,5 @@
 # SimulationObjectDetection
-Detection of cars, people, traffic lights in game with YOLO
+Detection of cars, people, and traffic lights in the game with YOLO
 
 ## Installation
 
@@ -15,16 +15,16 @@ Detection of cars, people, traffic lights in game with YOLO
 - Using the website makesense.ai, label the images from the shuffled_images folder
 - After labeling the images, export the txt files with the labels from the website makesense.ai and copy the txt files into the shuffled_images folder
 - Run the method create_labeled_images_zip_file to copy the labeled images to a zip file that will be used to train the model
-- Update the classes variables with the label names that you used on makesense.ai
+- Update the class variables with the label names that you used on makesense.ai
 - Run the method update_config_files
-- Upload the yolov4-tiny folder to the root of your google drive
+- Upload the yolov4-tiny folder to the root of your Google Drive
 
 ### 3_yolo_model_training.ipynb
-- Upload this notebook on Google Colab (this notebook need to run on Google Colab).
+- Upload this notebook on Google Colab (this notebook needs to run on Google Colab).
 - Open the notebook on Google Colab.
 - Change the Google Colab runtime to "GPU" by navigating to "Runtime" > "Change runtime type"
 - Run all cells to start training your model.
-- After the last command finish its execution, copy the file yolov4-tiny/training/yolov4-tiny-custom_last.weights from your google drive to the cloned project in the same folder as the 4_yolo_opencv_detector notebook.
+- After the last command finishes its execution, copy the file yolov4-tiny/training/yolov4-tiny-custom_last.weights from your Google Drive to the cloned project in the same folder as the 4_yolo_opencv_detector notebook.
 
 ### 4_yolo_opencv_detector.ipynb
 - Open your game that you want to perform detections
@@ -34,7 +34,7 @@ Detection of cars, people, traffic lights in game with YOLO
 
 ## Features
 
-- Detect the cars, people and traffic lights in the simulation (used GTA V as simulation)
+- Detect the cars, people, and traffic lights in the simulation (used GTA V as simulation)
 - Shows us the name of objects after it detects
 - Keeps the locations and names of objects as data
 
